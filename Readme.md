@@ -15,29 +15,31 @@ To run this project, you'll need the following:
 This project is Dockerized. You can build the Docker image using the provided Dockerfile. To run the project with all dependencies, you can use Docker Compose.
 
 ### Building the Docker image
-bash
+```bash
 docker build -t clustered-data-warehouse .
-
+```
 
 ### Running the project with Docker Compose
-bash
+```bash
 docker-compose up
-
+```
 
 ## Makefile
 A Makefile is included in the project to simplify common development tasks. You can use the following make commands:
 
 ### Build project
-bash
+```bash
 make build
-
+```
 
 ### Run project
-bash
+```bash
 make run
+```
 
 
 ### Run project tests
 
-bash
+```bash
 make test
+```
